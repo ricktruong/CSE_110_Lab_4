@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.EditText;
 
 import java.util.Optional;
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void onShowCounterClicked(View view) {
         Intent intent = new Intent(this, CounterActivity.class);
 
-        TextView maxCountView = findViewById(R.id.max_count_view);
+        EditText maxCountView = findViewById(R.id.max_count_view);
         String maxCountStr = maxCountView.getText().toString();
 
         Optional<Integer> maybeMaxCount = Utilities.parseCount(maxCountStr);
