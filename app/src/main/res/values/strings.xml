@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Lab4</string>
+
+    // MainActivity Strings
+    <string name="launch_profile">LAUNCH PROFILE</string>
+    <string name="max_count_view">Count To...</string>
+    <string name="max_count_btn">SHOW COUNTER</string>
+
+    // ProfileActivity Strings
+    <string name="profile_activity">This is Activity Profile</string>
+    <string name="back_profile">EXIT AND SAVE</string>
+    <string name="name_textview">Name</string>
+    <string name="status_textview">Status</string>
+
+    // CounterActivity Strings
+    <string name="back_counter">GO BACK</string>
 </resources>
